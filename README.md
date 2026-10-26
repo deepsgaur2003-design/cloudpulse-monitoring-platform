@@ -1,30 +1,38 @@
 # ☁️ CloudPulse — Cloud Monitoring & Alert System
 
-A cloud engineering project designed to monitor server performance, visualize metrics, and send automated alerts when performance thresholds are exceeded.
+CloudPulse is a cloud monitoring dashboard prototype built using Python and Streamlit. It provides a simple interface to view simulated system metrics and identify potential performance issues.
 
-## 🎯 Objectives
-- Monitor cloud server health.
-- Track CPU, memory, and disk usage.
-- Create monitoring dashboards.
-- Send automated email alerts.
-- Automate infrastructure deployment.
+## 🚀 Features
+- System overview with CPU, memory, and storage metrics
+- Interactive CPU and memory usage sliders
+- Automatic warning and critical alerts
+- CPU usage trend chart
+- Dashboard, Alerts, and About pages
+- Dark-themed user interface
 
-## 🛠️ Technologies
-- AWS EC2
-- Amazon CloudWatch
-- Amazon SNS
+## 🛠️ Technologies Used
 - Python
-- Terraform
+- Streamlit
 - GitHub
 
-## 🏗️ Architecture
-EC2 Server → CloudWatch → CloudWatch Alarm → Amazon SNS → Email Notification
+## ▶️ Run Locally
 
-## 📌 Project Status
-🚧 In Progress
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/deepsgaur2003-design/cloudpulse-monitoring-platform.git
+   ```
+2. Open the project folder.
+3. Install Streamlit:
+   ```bash
+   pip install streamlit
+   ```
+4. Run the application:
+   ```bash
+   streamlit run app.py
+   ```
 
-## 📚 Learning Outcomes
-- Cloud infrastructure management
-- Monitoring and alerting
-- AWS Identity and Access Management (IAM)
-- Infrastructure as Code (IaC)
+## ⚠️ Project Status
+This is a prototype using simulated data. It is not connected to real cloud servers or live monitoring services.
+
+## 👩‍💻 Author
+Deepika D.
