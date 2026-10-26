@@ -1,0 +1,33 @@
+# CloudPulse ☁️
+## Cloud Monitoring and Alert System
+
+CloudPulse is a cloud engineering project designed to monitor server performance, visualize system metrics, and send automated alerts when performance thresholds are exceeded.
+
+### Objectives
+- Monitor cloud server health and performance.
+- Visualize CPU, memory, and disk metrics.
+- Configure automated alerts and email notifications.
+- Explore infrastructure automation using Terraform.
+
+### Technologies
+- Amazon Web Services (AWS)
+- Amazon EC2
+- Amazon CloudWatch
+- Amazon SNS
+- Python
+- Terraform
+- GitHub
+
+### Architecture
+EC2 Server → CloudWatch Metrics → CloudWatch Alarms → Amazon SNS → Email Notification
+
+### Project Status
+🚧 In Progress — features will be implemented and tested step by step.
+
+### Learning Outcomes
+- Cloud infrastructure fundamentals
+- Monitoring and alerting
+- Identity and Access Management (IAM)
+- Infrastructure as Code (IaC)
+
+*Note: This project is for educational purposes.*
